@@ -1,0 +1,31 @@
+.mw_800 {
+  max-width: 800px;
+}
+.d-none{
+    display: none !important;
+}
+.bg_blue{
+    background-color: rgba(0, 0, 255, 0.62);
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #740000e1 !important; 
+}
+
+.panel {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
